@@ -20,7 +20,13 @@ int main() {
         if (data->line_count > 0) {
             std::cout << "First Line: (" << data->lines[0].start.x << "," << data->lines[0].start.y << ")" << std::endl;
         }
-        
+        if (data->text_count > 0) {
+            printf("First Text: %s at (%.2f, %.2f) Color: %d\n", 
+            data->texts[0].content, 
+            data->texts[0].insert_point.x, 
+            data->texts[0].insert_point.y, 
+            data->texts[0].color);
+}
         free_cad_data(data);
     } else {
         std::cout << "Error: No data returned from Python." << std::endl;
