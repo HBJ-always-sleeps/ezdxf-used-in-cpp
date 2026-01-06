@@ -1,5 +1,5 @@
 
-## Impossible CAD SDK v1.2 (C++/Python Hybrid)
+## Impossible CAD SDK v2.1 (C++/Python Hybrid)
 ```
 **"Impossible but useless assignment from my idiot boss, but I did it—and I made it better."**
 
@@ -7,7 +7,7 @@ This SDK is a high-performance C++ wrapper for the Python `ezdxf` library.
 It enables C++ applications to extract complex geometric data, text content,
 and visual attributes (colors) from DXF files without requiring the end-user to install Python.
 ```
-## 🚀 What's New in v1.2
+## 🚀 What's New in v2.1
 ```
 * **Text Support**: Full extraction of `TEXT` and `MTEXT` entities (content and insertion points).
 * **Color Attributes**: Support for **ACI (AutoCAD Color Index)** across all entities.
@@ -90,5 +90,6 @@ Provided "as-is" because my boss made me do it. Now with 100% more colors.
 
 
 ```
+
 
 
