@@ -1,5 +1,5 @@
 ```markdown
-# Impossible CAD SDK v1.2 (C++/Python Hybrid)
+## Impossible CAD SDK v1.2 (C++/Python Hybrid)
 
 **"Impossible but useless assignment from my idiot boss, but I did it—and I made it better."**
 
@@ -84,5 +84,6 @@ Provided "as-is" because my boss made me do it. Now with 100% more colors.
 * **现象**：中文路径读取失败，或者颜色数据对不上。
 * **教训**：`ezdxf` 默认处理 UTF-8，而 Windows 路径可能是本地编码。
 * **方案**：在 Python 端统一使用 `e.dxf.color` 获取标准的 ACI 索引，这比处理 RGB 更符合 CAD 用户的习惯。
+
 
 ```
