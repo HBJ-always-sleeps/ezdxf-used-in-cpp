@@ -24,7 +24,7 @@ and visual attributes (colors) from DXF files without requiring the end-user to 
 │   ├── python311.dll       # Embedded Python Engine
 │   ├── Lib/                # Python Standard Library
 │   ├── ezdxf/              # CAD Parsing Engine
-│   └── CadLogic.py         # Updated Logic Script (v1.2)
+│   └── CadLogic.py         # Updated Logic Script (v2.1)
 ├── src/                    # Source Code
 │   ├── CadEngine.cpp       # DLL Implementation with Dict parsing
 │   └── main.cpp            # Test Application
@@ -90,6 +90,7 @@ Provided "as-is" because my boss made me do it. Now with 100% more colors.
 
 
 ```
+
 
 
 
