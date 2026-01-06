@@ -3,7 +3,9 @@
 ```
 **"Impossible but useless assignment from my idiot boss, but I did it—and I made it better."**
 
-This SDK is a high-performance C++ wrapper for the Python `ezdxf` library. It enables C++ applications to extract complex geometric data, text content, and visual attributes (colors) from DXF files without requiring the end-user to install Python.
+This SDK is a high-performance C++ wrapper for the Python `ezdxf` library.
+It enables C++ applications to extract complex geometric data, text content,
+and visual attributes (colors) from DXF files without requiring the end-user to install Python.
 ```
 ## 🚀 What's New in v1.2
 ```
@@ -88,4 +90,5 @@ Provided "as-is" because my boss made me do it. Now with 100% more colors.
 
 
 ```
+
 
